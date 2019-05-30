@@ -1,13 +1,16 @@
 <template>
-  <section class="content">
-    <h3>index</h3>
+  <section>
+    <h3>about</h3>
   </section>
 </template>
 
 <script>
+
 export default {
-  name: 'index_page',
-  components: {}
+  name: 'about_page',
+  components: {
+    
+  }
 }
 </script>
 
