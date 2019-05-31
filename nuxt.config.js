@@ -27,6 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: '~/node_modules/highlight.js/styles/agate.css', lang: 'css' }
   ],
 
   /*
@@ -42,7 +43,14 @@ export default {
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     '@nuxtjs/pwa',
+    '@nuxtjs/markdownit'
   ],
+  markdownit: {
+    injected: true,
+    use: [
+      'markdown-it-highlightjs'
+    ]
+  },
 
   /*
   ** Build configuration
