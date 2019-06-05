@@ -37,6 +37,8 @@ export default {
     position: fixed
     top: 0
     left: 0
+    background: #ffffff
+    z-index: 1000
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
     &__inner
         padding: 0 32px

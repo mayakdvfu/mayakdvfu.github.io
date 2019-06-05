@@ -31,11 +31,14 @@ export default {
 
 .footer
   @include font('Roboto Mono', 300)
+  background: #ffffff
   height: $bar-height
   width: 100vw
   display: flex
   align-items: center
   padding: 0
+  position: fixed
+  bottom: 0px
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25)
   &__inner
     width: 100vw

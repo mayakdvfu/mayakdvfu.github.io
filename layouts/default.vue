@@ -27,7 +27,8 @@ export default {
 main
   display: block
   width: 100vw
-  padding: $bar-height + 10px 0
+  min-height: 100vh
+  padding: $bar-height + 30px 0
 
 </style>
 

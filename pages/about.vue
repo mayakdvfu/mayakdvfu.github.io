@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3>about</h3>
+    <div v-html="Hello"></div>
   </section>
 </template>
 
@@ -8,8 +8,11 @@
 
 export default {
   name: 'about_page',
-  components: {
-    
+  components: {},
+  computed: {
+    Hello() {
+      return Hello
+    }
   }
 }
 </script>
